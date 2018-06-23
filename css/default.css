@@ -1,0 +1,44 @@
+html, body {width:100%;height:100%;} /*非常重要的样式让背景图片100%适应整个屏幕*/  
+/* top */
+.my-navbar {height:80px; background-color: white; border:0px; -moz-box-shadow: 0px 5px 20px #d2d2d2; /* 老的 Firefox */ box-shadow: 0px 5px 20px #d2d2d2;}
+.navbar-brand {width:98px; height: 81px;  }
+#top-navbar-1 {margin: 15px 0 0;}
+.navbar-inverse .navbar-nav>li>a {color: #818181; font-size: 20px;}
+.navbar-inverse .navbar-nav>li>a:visited {color: #818181;}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a.active {color: #1b89e5;}
+.navbar-nav {float: none; text-align:center;}
+ul.nav.navbar-nav  li {float:none; display: inline-block; margin: 0em;}
+
+.qrcode {display: none; position: fixed; top: 50%; right: 73px; margin-top:-50px; z-index: 999;border:1px solid #BFBFBF; box-shadow: 2px 2px 3px #d2d2d2;}
+.qrcode_tips {width: 73px; height:80px; position: fixed; top: 50%; right: 0px; z-index: 999;}
+.qrcode_tips:hover .qrcode, .qrcode:hover {display:block;}
+
+
+/*bonner*/
+.banner { height:698px; background: url(../images/banner.jpg) center no-repeat; margin-top: -20px; }
+.banner .title {font-family: "Times New Roman"; font-size: 56px; color: #3f3f3f; margin-top: 150px;}
+.banner .content {font-family: "Times New Roman"; font-size: 26px; color: #575656; margin-top: 45px;}
+.banner .my-button {width:500px; height: 60px; font-family: 'Arial'; font-size: 32px; margin-top: 90px; background-color: #2296e8; border-color: #2296e8;}
+/*first*/
+.first-section {height: 968px;}
+.first-section h2 {font-family: "Times New Roman"; font-size: 48px; color:#2c7ab7; margin-top:115px; }
+.first-section .tow_img {margin-top:120px;}
+.first-section .tow_img [class^=col-]:nth-child(2){border-left:1px solid #929393;}
+.first-section .tow_text p {font-family: 'Arial'; font-size: 34px;color: #858686; display: block; margin-top:10px;}
+.first-section .speactor {width:1px; background:#929393;}
+/*second*/
+.second-section {height: 998px; background-color: #f8f8f8;}
+.second-title h2 {font-family: 'Times New Roman'; font-size: 48px; color: #2c7ab7; margin-top: 170px;}
+.divider-1 span {display: inline-block; width: 1200px; height:1px; background: #aaaaaa;}
+.six_adv_row {margin-top: 100px;}
+.second-section .text_content {display: block;}
+.second-section .text_content img {display: inline-block; width: 85px; height:85px; float: left; margin-right: 10px;}
+.second-section .text_content p {display: inline-block; width: 450px; font-family: '微软雅黑'; font-size: 24px; color: #666666;}
+
+.three-section .descript_list {margin-top: 60px;}
+.three-section .descript_text h2 {font-family: 'Arial'; font-size: 44px; color: #444444;}
+.three-section .descript_text p,.three-section .descript_text li {font-family: 'Arial'; font-size: 24px; color: #6f6f6f;}
+
+.four-section {height: 997px; background-color: #f8f8f8; display: block;}
+.four-section .company_list {width:1200px; display: block;}
+.four-section .company_list img {width: 216px; height:70px; display:block; float: left; margin-top:50px; margin-left: 23px; -moz-box-shadow: 2px 5px 5px #d2d2d2; /* 老的 Firefox */ box-shadow: 2px 5px 5px #d2d2d2;}
