@@ -9,7 +9,7 @@ html, body {width:100%;height:100%;} /*非常重要的样式让背景图片100%�
 .navbar-nav {float: none; text-align:center;}
 ul.nav.navbar-nav  li {float:none; display: inline-block; margin: 0em;}
 
-.qrcode {display: none; position: fixed; top: 50%; right: 73px; margin-top:-50px; z-index: 999;border:1px solid #BFBFBF; box-shadow: 2px 2px 3px #d2d2d2;}
+.qrcode {display: none; position: fixed; top: 50%; right: 73px; margin-top:-50px; z-index: 999; box-shadow: 0px 0px 15px 5px #d2d2d2;}
 .qrcode_tips {width: 73px; height:80px; position: fixed; top: 50%; right: 0px; z-index: 999;}
 .qrcode_tips:hover .qrcode, .qrcode:hover {display:block;}
 
@@ -39,6 +39,11 @@ ul.nav.navbar-nav  li {float:none; display: inline-block; margin: 0em;}
 .three-section .descript_text h2 {font-family: 'Arial'; font-size: 44px; color: #444444;}
 .three-section .descript_text p,.three-section .descript_text li {font-family: 'Arial'; font-size: 24px; color: #6f6f6f;}
 
-.four-section {height: 997px; background-color: #f8f8f8; display: block;}
+.four-section {height: 997px; background-color: #f8f8f8;}
 .four-section .company_list {width:1200px; display: block;}
 .four-section .company_list img {width: 216px; height:70px; display:block; float: left; margin-top:50px; margin-left: 23px; -moz-box-shadow: 2px 5px 5px #d2d2d2; /* 老的 Firefox */ box-shadow: 2px 5px 5px #d2d2d2;}
+
+.five-section {height: 580px;}
+
+.six-section {height: 250px; background: #f8f8f8;}
+.six-section h2 {font-family: 'Times New Roman'; font-size: 22px; color:#515151;}
